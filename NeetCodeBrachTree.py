@@ -1,3 +1,15 @@
+#217. Contains Duplicate
+'''
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        return len(nums) != len(set(nums))
+'''
+
+#242. Valid Anagram
+'''
+
+'''
+
 #1. Two Sum
 '''
 class Solution:
@@ -11,5 +23,3 @@ class Solution:
             prevMap[n] = i
         return
 '''
-
-#
